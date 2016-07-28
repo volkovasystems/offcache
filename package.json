@@ -1,0 +1,25 @@
+{
+  "name": "offcache",
+  "version": "0.0.0",
+  "description": "Standardize no-cache response.",
+  "main": "offcache.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/offcache.git"
+  },
+  "keywords": [
+    "no-cache",
+    "offcache",
+    "response",
+    "http"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/offcache/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/offcache#readme"
+}
