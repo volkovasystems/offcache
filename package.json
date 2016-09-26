@@ -1,6 +1,6 @@
 {
   "name": "offcache",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Standardize no-cache response.",
   "main": "offcache.js",
   "scripts": {

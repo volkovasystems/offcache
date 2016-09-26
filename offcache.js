@@ -62,9 +62,15 @@
 var http = require( "http" );
 
 var offcache = function offcache( response ){
-	if( !response ||
-		!( response instanceof http.ServerResponse ) )
-	{
+	/*;
+		@meta-configuration:
+			{
+				"response:required": "http.ServerResponse"
+			}
+		@end-meta-configuration
+	*/
+
+	if( !response || !( response instanceof http.ServerResponse ) ){
 		throw new Error( "invalid response" );
 	}
 
