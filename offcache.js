@@ -54,14 +54,20 @@
 
 	@include:
 		{
-			"http": "http"
+			"clazof": "clazof",
+			"http": "http",
+			"falze": "falze",
+			"protype": "protype"
 		}
 	@end-include
 */
 
-var http = require( "http" );
+const clazof = require( "clazof" );
+const http = require( "http" );
+const falze = require( "falze" );
+const protype = require( "protype" );
 
-var offcache = function offcache( response ){
+const offcache = function offcache( response ){
 	/*;
 		@meta-configuration:
 			{
@@ -70,29 +76,28 @@ var offcache = function offcache( response ){
 		@end-meta-configuration
 	*/
 
-	if( !response || !( response instanceof http.ServerResponse ) ){
+	if( falze( response ) || !clazof( response, http.ServerResponse ) ){
 		throw new Error( "invalid response" );
 	}
 
-	if( typeof response.setHeader == "function" ){
-		response.setHeader( "Cache-Control", [
-			"no-cache",
-			"private",
-			"no-store",
-			"must-revalidate",
-			"proxy-revalidate",
-			"max-stale=0",
-			"post-check=0",
-			"pre-check=0"
-		] );
-
-		response.setHeader( "Expires", "0" );
-
-		response.setHeader( "Pragma", "no-cache" );
-
-	}else{
-		throw new Error( "no cache header not set" );
+	if( !protype( response.setHeader, FUNCTION ) ){
+		throw new Error( "invalid response" );
 	}
+
+	response.setHeader( "Cache-Control", [
+		"no-cache",
+		"private",
+		"no-store",
+		"must-revalidate",
+		"proxy-revalidate",
+		"max-stale=0",
+		"post-check=0",
+		"pre-check=0"
+	] );
+
+	response.setHeader( "Expires", "0" );
+
+	response.setHeader( "Pragma", "no-cache" );
 
 	return response;
 };
