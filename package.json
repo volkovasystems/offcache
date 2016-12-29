@@ -1,10 +1,10 @@
 {
   "name": "offcache",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Standardize no-cache response.",
   "main": "offcache.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha offcache-test.js"
   },
   "repository": {
     "type": "git",
@@ -17,14 +17,17 @@
     "http"
   ],
   "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "contributors": [
+    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/volkovasystems/offcache/issues"
   },
   "homepage": "https://github.com/volkovasystems/offcache#readme",
   "dependencies": {
-    "clazof": "0.0.0",
-    "falze": "^0.2.0",
-    "protype": "^0.4.0"
+    "clazof": "^0.1.0",
+    "falze": "^0.3.0",
+    "protype": "^0.7.0"
   }
 }

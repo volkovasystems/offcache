@@ -34,6 +34,9 @@
 			"file": "offcache.js",
 			"module": "offcache",
 			"author": "Richeve S. Bebedor",
+			"contributors": [
+				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
+			],
 			"eMail": "richeve.bebedor@gmail.com",
 			"repository": "https://github.com/volkovasystems/offcache.git",
 			"test": "offcache-test.js",
