@@ -1,6 +1,6 @@
 {
   "name": "offcache",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Standardize no-cache response.",
   "main": "offcache.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/volkovasystems/offcache#readme",
   "dependencies": {
-    "clazof": "^0.19.0",
+    "clazof": "^0.21.0",
     "falze": "^0.20.0",
     "protype": "^0.21.0"
   }

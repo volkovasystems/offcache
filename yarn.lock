@@ -46,9 +46,9 @@ circular-json@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.3.1.tgz#be8b36aefccde8b3ca7aa2d6afc07a37242c0d2d"
 
-clazof@^0.19.0:
-  version "0.19.0"
-  resolved "https://registry.yarnpkg.com/clazof/-/clazof-0.19.0.tgz#fc50ac156ec8a8f7ec60d08cde2bfbf9c98fd486"
+clazof@^0.21.0:
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/clazof/-/clazof-0.21.0.tgz#eeaebfcef46f8751788ba025753d638dcda22206"
   dependencies:
     babel-runtime "^6.23.0"
     falzy "^0.17.0"
@@ -56,7 +56,7 @@ clazof@^0.19.0:
     protype "^0.21.0"
     raze "^0.25.0"
     stringe "^0.2.0"
-    wauker "^0.7.0"
+    wauker "^0.8.0"
 
 core-js@^2.4.0:
   version "2.4.1"
@@ -75,15 +75,15 @@ doubt@^0.24.0:
     protype "^0.21.0"
     stringe "^0.2.0"
 
-een@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/een/-/een-0.13.0.tgz#93b1b7db3973c2c544591e35c611923e83375347"
+een@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/een/-/een-0.16.0.tgz#2f115d2f1377e18327f897386cd447e7d2cb7de2"
   dependencies:
     babel-runtime "^6.23.0"
     doubt "^0.24.0"
-    kein "^0.16.0"
+    eqe "^0.0.0"
     protype "^0.21.0"
-    stringe "^0.2.0"
+    raze "^0.25.0"
     truly "^0.17.0"
 
 empt@^0.20.0:
@@ -94,6 +94,15 @@ empt@^0.20.0:
     doubt "^0.24.0"
     kount "^0.10.0"
     protype "^0.21.0"
+
+eqe@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/eqe/-/eqe-0.0.0.tgz#320d21897a2cd4d870adc9f30a9fb4de2fe82a8d"
+  dependencies:
+    babel-runtime "^6.23.0"
+    nafe "^0.0.0"
+    protype "^0.21.0"
+    stringe "^0.2.0"
 
 falze@^0.20.0:
   version "0.20.0"
@@ -140,6 +149,15 @@ kount@^0.10.0:
   resolved "https://registry.yarnpkg.com/kount/-/kount-0.10.0.tgz#92f6dc18a5c8e8844e29a93aec268b58ad92f53b"
   dependencies:
     babel-runtime "^6.23.0"
+
+nafe@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/nafe/-/nafe-0.0.0.tgz#ac3e9faf6bcdbd7613d6cb2faebb01e831d3dc4a"
+  dependencies:
+    babel-runtime "^6.23.0"
+    falzy "^0.17.0"
+    protype "^0.21.0"
+    stringe "^0.2.0"
 
 portel@^0.3.0:
   version "0.3.0"
@@ -191,12 +209,12 @@ truly@^0.17.0:
     babel-runtime "^6.23.0"
     protype "^0.21.0"
 
-wauker@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/wauker/-/wauker-0.7.0.tgz#70cea7f4d191978b664249b21ca10bebfdfdf80b"
+wauker@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/wauker/-/wauker-0.8.0.tgz#78ba627e2a0fa9fe91b3e45b5ee1815994d5e9d5"
   dependencies:
     babel-runtime "^6.23.0"
-    een "^0.13.0"
+    een "^0.16.0"
     falzy "^0.17.0"
     protease "^0.15.0"
     protype "^0.21.0"
