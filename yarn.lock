@@ -46,18 +46,18 @@ circular-json@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.3.1.tgz#be8b36aefccde8b3ca7aa2d6afc07a37242c0d2d"
 
-clazof@^0.25.0:
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/clazof/-/clazof-0.25.0.tgz#3b97ccb4cf171a536e647ed3117bbb08d1ca0434"
+clazof@^0.27.0:
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/clazof/-/clazof-0.27.0.tgz#30c45e3cd06455f567e0a8a5285f41df0abf7a3f"
   dependencies:
     babel-runtime "^6.23.0"
     falzy "^0.19.0"
-    fname "^0.5.0"
+    fname "^0.8.0"
     portel "^0.3.0"
     protype "^0.21.0"
     raze "^0.29.0"
     stringe "^0.3.0"
-    wauker "^0.12.0"
+    wauker "^0.14.0"
 
 core-js@^2.4.0:
   version "2.4.1"
@@ -123,23 +123,23 @@ falzy@^0.19.0:
   dependencies:
     babel-runtime "^6.23.0"
 
-fname@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/fname/-/fname-0.5.0.tgz#d0a2b77d5ea147770c12d8559f8919aa58fc7fa1"
+fname@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/fname/-/fname-0.8.0.tgz#48832f5b45d50e3966df7332c8b4b325a62caf7d"
   dependencies:
     babel-runtime "^6.23.0"
     falzy "^0.19.0"
     mtch "^0.1.0"
+    nmde "^0.0.0"
     protype "^0.21.0"
-    truly "^0.18.0"
 
-fnamed@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/fnamed/-/fnamed-0.6.0.tgz#4f4c948afeb75c40db17df579db9772df0931214"
+fnamed@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/fnamed/-/fnamed-0.8.0.tgz#c4efeecee9f5fddc6b32e184bd1b8d29b5050277"
   dependencies:
     babel-runtime "^6.23.0"
     falzy "^0.19.0"
-    fname "^0.5.0"
+    fname "^0.8.0"
     protype "^0.21.0"
     truly "^0.18.0"
 
@@ -159,13 +159,13 @@ impel@^0.14.0:
     wichevr "^0.9.0"
     zelf "^0.11.0"
 
-kein@^0.23.0:
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/kein/-/kein-0.23.0.tgz#fd7f1f9a45853ce6f882ab3246e4c6e3b8b97a55"
+kein@^0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/kein/-/kein-0.25.0.tgz#f756e6a3278394e9d1827005c610dda3b4baacda"
   dependencies:
     babel-runtime "^6.23.0"
     falzy "^0.19.0"
-    fnamed "^0.6.0"
+    fnamed "^0.8.0"
     portel "^0.3.0"
     protype "^0.21.0"
     zelf "^0.11.0"
@@ -203,6 +203,15 @@ nafe@^0.2.0:
     protype "^0.21.0"
     stringe "^0.3.0"
 
+nmde@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/nmde/-/nmde-0.0.0.tgz#173eb8d5b5dad6b7c403fcfd92f04616509c3326"
+  dependencies:
+    babel-runtime "^6.23.0"
+    falzy "^0.19.0"
+    protype "^0.21.0"
+    truly "^0.18.0"
+
 portel@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/portel/-/portel-0.3.0.tgz#532b5817ce5c1697fc65e34ca7eadb28c8e6152c"
@@ -210,15 +219,15 @@ portel@^0.3.0:
     babel-runtime "^6.23.0"
     protype "^0.21.0"
 
-protease@^0.20.0:
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/protease/-/protease-0.20.0.tgz#0162fa94711421a0de5d8eafd1740ec6be3c81e0"
+protease@^0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/protease/-/protease-0.22.0.tgz#a01a828d24c7371e4ba89fe0ed383d4fbfbbf0b1"
   dependencies:
     babel-runtime "^6.23.0"
     falzy "^0.19.0"
-    fname "^0.5.0"
+    fname "^0.8.0"
     impel "^0.14.0"
-    kein "^0.23.0"
+    kein "^0.25.0"
     protype "^0.21.0"
 
 protype@^0.21.0:
@@ -252,14 +261,14 @@ truly@^0.18.0:
   dependencies:
     babel-runtime "^6.23.0"
 
-wauker@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/wauker/-/wauker-0.12.0.tgz#5cf89fdc39202956e7594aac6b20cc3ae2a84f4a"
+wauker@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/wauker/-/wauker-0.14.0.tgz#8769caec8c6e43a0eacafae0d62cff5c48baa03e"
   dependencies:
     babel-runtime "^6.23.0"
     een "^0.18.0"
     falzy "^0.19.0"
-    protease "^0.20.0"
+    protease "^0.22.0"
     protype "^0.21.0"
 
 wichevr@^0.9.0:
