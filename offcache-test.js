@@ -1,11 +1,10 @@
 
 const assert = require( "assert" );
+const http = require( "http" );
 const offcache = require( "./offcache.js" );
 
-const http = require( "http" );
-
 http.createServer( function onCreate( request, response ){
-	
+
 	assert.ok( offcache( response ) );
 
 	response.writeHead( 200, { "Content-Type": "text/plain" } );
