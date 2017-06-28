@@ -4,14 +4,14 @@ const offcache = require( "./offcache.js" );
 
 const http = require( "http" );
 
-http.createServer( function ( request, response ){
-
-	console.log( offcache( response ) );
+http.createServer( function onCreate( request, response ){
+	
+	assert.ok( offcache( response ) );
 
 	response.writeHead( 200, { "Content-Type": "text/plain" } );
 
-	response.write( "Hello World!" );
+	response.end( "Hello World" );
 
-	response.end( );
-
-} ).listen( "8080", "127.0.0.1" );
+} ).listen( 3000, function listening( ){
+	console.log( "HTTP server running" );
+} );
